@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    background: url(Imagens/background.jpg);
+    background-size: 1366px 768px;
+}
+.titulo {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+    min-width: 400px;
+    border: 7px ridge lightblue;
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    padding: 5px 15px 15px 15px;
+    background: lightcyan;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.card {
+    border-radius: 5px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+}
+.photo {
+    width: 170px;
+    height: 170px;
+    margin: 15px 15px 0px 15px;
+}
+.name {
+    text-align: center
+}
+.desc {
+    text-align: center;
+}
